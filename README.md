@@ -64,15 +64,8 @@ Target Variable:
 
 #2.Model Architecture
 
-```
-Input Layer (12 Features)
-        │
-Dense Layer (64 neurons, ReLU)
-        │
-Dense Layer (32 neurons, ReLU)
-        │
-Output Layer (1 neuron, Sigmoid)
-```
+
+Input Layer (12 Features) ->Dense Layer (64 neurons, ReLU) -> Dense Layer (32 neurons, ReLU) -> Output Layer (1 neuron, Sigmoid)
 
 #3. Compilation
 
